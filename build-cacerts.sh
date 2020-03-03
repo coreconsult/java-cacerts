@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/curl/curl/master/lib/mk-ca-bundle.pl -O m
 
 wget https://github.com/use-sparingly/keyutil/releases/download/0.4.0/keyutil-0.4.0.jar -O keyutil-0.4.0.jar
 
-sha256sum keyutil-0.4.0.jar | grep -q 9d828d97053868907ce6229d132132f0f26772393405dadd037b6f85a5c5b219 || {
+sha256sum keyutil-0.4.0.jar | grep -q 18f1d2c82839d84949b1ad015343c509e81ef678c24db6112acc6c0761314610 || {
     echo "keyutil changed. please review. decide for yourself, update the hash, be the change you seek, yadda yadda."
     exit 1
 }
